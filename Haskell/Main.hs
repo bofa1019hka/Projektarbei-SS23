@@ -70,7 +70,7 @@ printBool v = let x = var int "x"
 
 
 
-eval = I.run
+evall = I.run
 
 compileAndExecute cmd = do let code = C.compile cmd
                            VM.run code
